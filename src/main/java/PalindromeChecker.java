@@ -35,12 +35,13 @@ public String reverse(String str)
     return sNew;
 }
 
-public String onlyLetters(String sString){
+public String onlyLetters(String sString)
+{
   String s = "";
   for ( int i = 0; i < sString.length(); i++) {
     if (Character.isLetter(sString.charAt(i))) {
        s += sString.charAt(i);
     }
-    return s;
   }
+ return s;
 }
